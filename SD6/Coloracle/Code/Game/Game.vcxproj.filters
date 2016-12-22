@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="General\Game Entities">
+      <UniqueIdentifier>{e19ab99e-cbc4-4805-9b7a-7e62ee664e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Game Entities\NetObject Protocols">
+      <UniqueIdentifier>{93bbf167-1676-4a5f-936c-afc405b3a8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Game State Handlers">
+      <UniqueIdentifier>{d7010202-73e6-4397-807a-0630a786733d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGameRenderer.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGameInput.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\PlayerController.cpp">
+      <Filter>General\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\PlayerAvatar.cpp">
+      <Filter>General\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\TeardropNPC.cpp">
+      <Filter>General\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\NetObjectSystem.cpp">
+      <Filter>General\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\NetObjectProtocol.cpp">
+      <Filter>General\Game Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\NetObject Protocols\ProtocolTeardropNPC.cpp">
+      <Filter>General\Game Entities\NetObject Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Entities\NetObject Protocols\ProtocolPlayerAvatar.cpp">
+      <Filter>General\Game Entities\NetObject Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Handlers\TheGameMidMatch.cpp">
+      <Filter>General\Game State Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Handlers\TheGameLobby.cpp">
+      <Filter>General\Game State Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Handlers\TheGameTitle.cpp">
+      <Filter>General\Game State Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="TheGameDebug.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game State Handlers\TheGamePostMatch.cpp">
+      <Filter>General\Game State Handlers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TheGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGameNetworking.cpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyNetObj.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\PlayerController.hpp">
+      <Filter>General\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\PlayerAvatar.hpp">
+      <Filter>General\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\TeardropNPC.hpp">
+      <Filter>General\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\NetObjectSystem.hpp">
+      <Filter>General\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\NetObjectProtocol.hpp">
+      <Filter>General\Game Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\NetObject Protocols\ProtocolPlayerAvatar.hpp">
+      <Filter>General\Game Entities\NetObject Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="Game Entities\NetObject Protocols\ProtocolTeardropNPC.hpp">
+      <Filter>General\Game Entities\NetObject Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="TheGameDebug.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

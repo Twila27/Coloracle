@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<SpriteResources>
+	<SpriteResource name="GetShaderIn" 		image="Data/Images/Sprites/Test.png" uvTopLeft="0.0000,0.0000" uvBottomRight="1.0000,1.0000" material="OverrideExample"/>
+
+	<SpriteResource name="soft_particle"	image="Data/Images/Particles/particle.png" />
+	
+	<SpriteResource name="Test" 			image="Data/Images/Sprites/Test.png" uvTopLeft="0.0000,0.0000" uvBottomRight="1.0000,1.0000" material=""/>
+	<SpriteResource name="Player" 			image="Data/Images/Sprites/Player.png" 				/>
+	<SpriteResource name="Title_UI" 		image="Data/Images/Sprites/UI/Title.png" 			/>
+		
+	<SpriteResource name="Clay Golem" 		image="Data/Images/Sprites/Enemies/Clay Golem.png"/>
+	<SpriteResource name="Sand Golem" 		image="Data/Images/Sprites/Enemies/Sand Golem.png"/>
+	<SpriteResource name="Rock Golem" 		image="Data/Images/Sprites/Enemies/Rock Golem.png"/>
+	<SpriteResource name="Lava Snake" 		image="Data/Images/Sprites/Enemies/Lava Snake.png"/>
+	<SpriteResource name="Ice Kite" 		image="Data/Images/Sprites/Enemies/Ice Kite.png"/>
+
+	<SpriteResource name="Ball Bullet" 		image="Data/Images/Sprites/Bullets/Ball.png"/>
+	<SpriteResource name="Capsule Bullet" 	image="Data/Images/Sprites/Bullets/Capsule.png"/>
+	<SpriteResource name="Cross Bullet" 	image="Data/Images/Sprites/Bullets/Cross.png"/>
+	<SpriteResource name="Star Bullet" 		image="Data/Images/Sprites/Bullets/Star.png"/>
+	<SpriteResource name="Chevron Bullet"	image="Data/Images/Sprites/Bullets/Chevron.png"/>
+	
+	<SpriteResource name="CharonBG"		image="Data/Images/Sprites/Backgrounds/CharonFerryTitle.jpg"/>
+	<SpriteResource name="LobbyBG"		image="Data/Images/Sprites/Backgrounds/Lobby.png"/>
+	<SpriteResource name="UnderworldBG"	image="Data/Images/Sprites/Backgrounds/Underworld.png"/>
+	<SpriteResource name="PostMatchBG"	image="Data/Images/Sprites/Backgrounds/Overworld.png"/>
+	
+	<SpriteAnimation name="Expanding Bullet" durationSeconds="2" loopMode="looping" >
+		<SpriteResource keyframeStart="0" name="Expanding Bullet 0 - Ball" 		image="Data/Images/Sprites/Bullets/Ball.png"/>
+		<SpriteResource keyframeStart="0.5" name="Expanding Bullet 1 - Cross" 		image="Data/Images/Sprites/Bullets/Cross.png"/>
+		<SpriteResource keyframeStart="1" name="Expanding Bullet 2 - Capsule" 	image="Data/Images/Sprites/Bullets/Capsule.png"/>
+		<SpriteResource keyframeStart="1.5" name="Expanding Bullet 3 - Star" 	image="Data/Images/Sprites/Bullets/Star.png"/>
+	</SpriteAnimation>
+	
+	<SpriteAnimation name="boom_particle" durationSeconds="0.8" >
+		<SpriteResource keyframeStart="0.067" name="Explosion0" 	image="Data/Images/Particles/boom0.png"/>
+		<SpriteResource keyframeStart="0.133" name="Explosion1" 	image="Data/Images/Particles/boom1.png"/>
+		<SpriteResource keyframeStart="0.200" name="Explosion2" 	image="Data/Images/Particles/boom2.png"/>
+		<SpriteResource keyframeStart="0.267" name="Explosion3" 	image="Data/Images/Particles/boom3.png"/>
+		<SpriteResource keyframeStart="0.333" name="Explosion4" 	image="Data/Images/Particles/boom4.png"/>
+		<SpriteResource keyframeStart="0.400" name="Explosion5" 	image="Data/Images/Particles/boom5.png"/>
+		<SpriteResource keyframeStart="0.467" name="Explosion6" 	image="Data/Images/Particles/boom6.png"/>
+		<SpriteResource keyframeStart="0.533" name="Explosion7" 	image="Data/Images/Particles/boom7.png"/>
+		<SpriteResource keyframeStart="0.600" name="Explosion8" 	image="Data/Images/Particles/boom8.png"/>
+		<SpriteResource keyframeStart="0.667" name="Explosion9" 	image="Data/Images/Particles/boom9.png"/>
+		<SpriteResource keyframeStart="0.733" name="Explosion10" 	image="Data/Images/Particles/boom10.png"/>
+		<SpriteResource keyframeStart="0.800" name="Explosion11" 	image="Data/Images/Particles/boom11.png"/>
+	</SpriteAnimation>	
+	
+	<SpriteResource name="RedPlayer_Idle" 	image="Data/Images/Sprites/Heroes/Red/RedPlayer_Idle.png"/>
+	<SpriteResource name="GreenPlayer_Idle" image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Idle.png"/>
+	<SpriteResource name="BluePlayer_Idle" 	image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Idle.png"/>
+
+	<SpriteResource name="RedPlayer_Jump" 	image="Data/Images/Sprites/Heroes/Red/RedPlayer_Jump.png"/>
+	<SpriteResource name="GreenPlayer_Jump" image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Jump.png"/>
+	<SpriteResource name="BluePlayer_Jump" 	image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Jump.png"/>
+
+	<SpriteResource name="RedPlayer_Fall" 	image="Data/Images/Sprites/Heroes/Red/RedPlayer_Fall.png"/>
+	<SpriteResource name="GreenPlayer_Fall" image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Fall.png"/>
+	<SpriteResource name="BluePlayer_Fall" 	image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Fall.png"/>
+	
+	<SpriteAnimation name="RedPlayer_Move" durationSeconds="0.8" loopMode="looping" >
+		<SpriteResource keyframeStart="0.0" name="RedPlayer_Move0" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (1).png"/>
+		<SpriteResource keyframeStart="0.1" name="RedPlayer_Move1" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (2).png"/>
+		<SpriteResource keyframeStart="0.2" name="RedPlayer_Move2" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (3).png"/>
+		<SpriteResource keyframeStart="0.3" name="RedPlayer_Move3" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (4).png"/>
+		<SpriteResource keyframeStart="0.4" name="RedPlayer_Move4" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (5).png"/>
+		<SpriteResource keyframeStart="0.5" name="RedPlayer_Move5" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (6).png"/>
+		<SpriteResource keyframeStart="0.6" name="RedPlayer_Move6" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (7).png"/>
+		<SpriteResource keyframeStart="0.7" name="RedPlayer_Move7" 		image="Data/Images/Sprites/Heroes/Red/RedPlayer_Move (8).png"/>
+	</SpriteAnimation>
+
+	<SpriteAnimation name="GreenPlayer_Move" durationSeconds="0.8" loopMode="looping" >
+		<SpriteResource keyframeStart="0.0" name="GreenPlayer_Move0" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (1).png"/>
+		<SpriteResource keyframeStart="0.1" name="GreenPlayer_Move1" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (2).png"/>
+		<SpriteResource keyframeStart="0.2" name="GreenPlayer_Move2" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (3).png"/>
+		<SpriteResource keyframeStart="0.3" name="GreenPlayer_Move3" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (4).png"/>
+		<SpriteResource keyframeStart="0.4" name="GreenPlayer_Move4" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (5).png"/>
+		<SpriteResource keyframeStart="0.5" name="GreenPlayer_Move5" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (6).png"/>
+		<SpriteResource keyframeStart="0.6" name="GreenPlayer_Move6" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (7).png"/>
+		<SpriteResource keyframeStart="0.7" name="GreenPlayer_Move7" 		image="Data/Images/Sprites/Heroes/Green/GreenPlayer_Move (8).png"/>
+	</SpriteAnimation>
+
+	<SpriteAnimation name="BluePlayer_Move" durationSeconds="0.8" loopMode="looping" >
+		<SpriteResource keyframeStart="0.0" name="BluePlayer_Move0" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (1).png"/>
+		<SpriteResource keyframeStart="0.1" name="BluePlayer_Move1" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (2).png"/>
+		<SpriteResource keyframeStart="0.2" name="BluePlayer_Move2" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (3).png"/>
+		<SpriteResource keyframeStart="0.3" name="BluePlayer_Move3" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (4).png"/>
+		<SpriteResource keyframeStart="0.4" name="BluePlayer_Move4" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (5).png"/>
+		<SpriteResource keyframeStart="0.5" name="BluePlayer_Move5" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (6).png"/>
+		<SpriteResource keyframeStart="0.6" name="BluePlayer_Move6" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (7).png"/>
+		<SpriteResource keyframeStart="0.7" name="BluePlayer_Move7" 		image="Data/Images/Sprites/Heroes/Blue/BluePlayer_Move (8).png"/>
+	</SpriteAnimation>
+	
+	<SpriteAnimation name="Slime" durationSeconds="2.0" loopMode="looping" >
+		<SpriteResource keyframeStart="0.0" name="Slime0" 	image="Data/Images/Sprites/Enemies/Slime0.png"/>
+		<SpriteResource keyframeStart="1.0" name="Slime1" 	image="Data/Images/Sprites/Enemies/Slime1.png"/>
+	</SpriteAnimation>
+	
+	
+	
+</SpriteResources>
